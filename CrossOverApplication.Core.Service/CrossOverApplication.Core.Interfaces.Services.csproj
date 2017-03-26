@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <AssemblyName>CrossOverApplication.Core.Interfaces.Services</AssemblyName>
+    <RootNamespace>CrossOverApplication.Core.Interfaces.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Data\CrossOverApplication.Core.Data.csproj" />
+    <ProjectReference Include="..\Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

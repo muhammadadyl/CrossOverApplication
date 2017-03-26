@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <AssemblyName>Core.Domain.Extensions</AssemblyName>
+    <RootNamespace>Core.Domain.Extensions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
