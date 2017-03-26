@@ -6,4 +6,8 @@
     <RootNamespace>Core.Domain.Entities</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Security.Claims" Version="4.3.0" />
+  </ItemGroup>
+
 </Project>

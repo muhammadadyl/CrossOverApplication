@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj" />
+    <ProjectReference Include="..\CrossOverApplication.Core.Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>

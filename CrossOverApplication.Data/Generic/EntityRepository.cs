@@ -1,7 +1,6 @@
-﻿using CrossOverApplication.Core.Data.Helpers;
-using CrossOverApplication.Core.Data.Interfaces.Generic.Repositories;
+﻿using CrossOverApplication.Core.Data.Interfaces.Generic.Repositories;
 using CrossOverApplication.Core.Domain.Entities;
-using CrossOverApplication.Core.Domain.Extensions;
+using CrossOverApplication.Core.Data.Helpers;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,6 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using CrossOverApplication.Core.Domain.Extensions;
 
 namespace CrossOverApplication.Data.Generic
 {

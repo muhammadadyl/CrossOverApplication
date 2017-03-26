@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Data\CrossOverApplication.Core.Data.csproj" />
-    <ProjectReference Include="..\Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj" />
+    <ProjectReference Include="..\CrossOverApplication.Core.Data\CrossOverApplication.Core.Data.csproj" />
+    <ProjectReference Include="..\CrossOverApplication.Core.Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>
