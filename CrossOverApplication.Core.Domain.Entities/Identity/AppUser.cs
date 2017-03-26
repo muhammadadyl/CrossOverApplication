@@ -15,7 +15,7 @@ namespace CrossOverApplication.Core.Domain.Entities.Identity
         public virtual ICollection<ApplicationUserClaim> Claims { get; private set; }
         public virtual string Email { get; set; }
         public virtual bool EmailConfirmed { get; set; }
-        public virtual int Id { get; set; }
+        public virtual string Id { get; set; }
         public virtual bool LockoutEnabled { get; set; }
         public virtual DateTime? LockoutEndDateUtc { get; set; }
         public virtual ICollection<ApplicationUserLogin> Logins { get; private set; }

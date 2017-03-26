@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace CrossOverApplication.Data.Identity
+namespace CrossOverApplication.Data.Models.Identity
 {
     // You can add profile data for the user by adding more properties to your ApplicationIdentityUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
-    public class ApplicationIdentityUser 
+    public class ApplicationIdentityUser
         : IdentityUser<string, ApplicationIdentityUserClaim, ApplicationIdentityUserRole, ApplicationIdentityUserLogin>
     {
+        public DateTime? LockoutEndDateUtc { get; internal set; }
     }
 
 

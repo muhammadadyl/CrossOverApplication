@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using CrossOverApplication.Core.Domain.Entities;
-using CrossOverApplication.Data.Identity;
+using CrossOverApplication.Data.Models.Identity;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Data;
@@ -21,7 +21,6 @@ namespace CrossOverApplication.Data
         {
 
         }
-
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

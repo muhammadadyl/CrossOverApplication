@@ -1,6 +1,6 @@
 ﻿using CrossOverApplication.Core.Data.Interfaces;
 
-namespace CrossOverApplication.Core.interfaces.Services
+namespace CrossOverApplication.Core.Interfaces.Services
 {
     public interface IGenericService
     {

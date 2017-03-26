@@ -9,7 +9,7 @@ namespace CrossOverApplication.Core.Domain.Entities.Identity
             Users = new List<ApplicationUserRole>();
         }
 
-        public int Id
+        public string Id
         {
             get; set;
         }

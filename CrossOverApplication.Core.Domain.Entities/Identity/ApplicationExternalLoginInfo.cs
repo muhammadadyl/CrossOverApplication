@@ -1,31 +1,21 @@
 ﻿using CrossOverApplication.Core.Domain.Entities.Identity;
+using Microsoft.AspNetCore.Authentication;
+using System.Collections.Generic;
+using System.Security.Claims;
 
-namespace ASPNETIdentityWithOnion.Core.DomainModels.Identity
+namespace CrossOverApplication.Core.Domain.Entities.Identity
 {
     public class ApplicationExternalLoginInfo
     {
-        public string DefaultUserName
-        {
-            get;
-            set;
-        }
 
-        public string Email
-        {
-            get;
-            set;
-        }
+        public string LoginProvider { get; set; }
 
-        public ClaimsIdentity ExternalIdentity
-        {
-            get;
-            set;
-        }
+        public string ProviderKey { get; set; }
 
-        public ApplicationUserLoginInfo Login
-        {
-            get;
-            set;
-        }
+        public string DisplayName { get; set; }
+
+        public ClaimsPrincipal Principal { get; set; }
+
+        public IEnumerable<AuthenticationToken> AuthenticationTokens { get; set; }
     }
 }

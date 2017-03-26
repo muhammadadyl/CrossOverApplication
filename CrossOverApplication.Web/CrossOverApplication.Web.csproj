@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
@@ -29,6 +29,14 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrossOverApplication.Core.Interfaces.Service\CrossOverApplication.Core.Interfaces.Services.csproj" />
+    <ProjectReference Include="..\CrossOverApplication.Data\CrossOverApplication.Data.csproj" />
+    <ProjectReference Include="..\CrossOverApplication.Services\CrossOverApplication.Services.csproj" />
   </ItemGroup>
 
 </Project>

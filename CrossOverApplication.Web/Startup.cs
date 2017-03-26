@@ -9,9 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using CrossOverApplication.Web.Data;
-using CrossOverApplication.Web.Models;
-using CrossOverApplication.Web.Services;
+using CrossOverApplication.Data;
+using CrossOverApplication.Data.Models.Identity;
+using CrossOverApplication.Services;
+using CrossOverApplication.Core.Interfaces.Services;
 
 namespace CrossOverApplication.Web
 {
@@ -43,7 +44,7 @@ namespace CrossOverApplication.Web
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
+            services.AddIdentity<ApplicationIdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 

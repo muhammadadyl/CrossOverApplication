@@ -25,13 +25,13 @@ namespace CrossOverApplication.Core.Domain.Entities.Identity
 
         public IDictionary<string, object> Properties { get; private set; }
 
-        public string AuthenticationType
+        public string AuthenticationScheme
         {
             get { return GetString(AuthenticationTypePropertyKey); }
             set { Properties[AuthenticationTypePropertyKey] = value; }
         }
 
-        public string Caption
+        public string DisplayName
         {
             get { return GetString(CaptionPropertyKey); }
             set { Properties[CaptionPropertyKey] = value; }

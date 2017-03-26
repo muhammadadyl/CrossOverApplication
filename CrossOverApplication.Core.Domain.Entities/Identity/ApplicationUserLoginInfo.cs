@@ -13,6 +13,7 @@
             get;
             set;
         }
+        public string DisplayName { get; set; }
 
         public ApplicationUserLoginInfo(string loginProvider, string providerKey)
         {

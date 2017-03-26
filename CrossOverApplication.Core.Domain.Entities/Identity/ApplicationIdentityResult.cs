@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 
 namespace CrossOverApplication.Core.Domain.Entities.Identity
 {
     public class ApplicationIdentityResult
     {
-        public IEnumerable<string> Errors
+        public IEnumerable<IdentityError> Errors
         {
             get;
             private set;
@@ -16,10 +17,10 @@ namespace CrossOverApplication.Core.Domain.Entities.Identity
             private set;
         }
 
-        public ApplicationIdentityResult(IEnumerable<string> errors, bool succeeded)
+        public ApplicationIdentityResult(IEnumerable<IdentityError> errors, bool succeeded)
         {
-            Succeeded = succeeded;
             Errors = errors;
+            Succeeded = succeeded;
         }
     }
 }
