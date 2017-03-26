@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Web", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Domain.Entities", "Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj", "{AF851407-DFEC-459E-8E74-C17A520A30E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Domain.Entities", "CrossOverApplication.Core.Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj", "{AF851407-DFEC-459E-8E74-C17A520A30E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Domain.Extensions", "Extensions\CrossOverApplication.Core.Domain.Extensions.csproj", "{C8FAE85B-84A1-43AB-9858-B22D82333E5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Domain.Extensions", "CrossOverApplication.Core.Domain.Extensions\CrossOverApplication.Core.Domain.Extensions.csproj", "{C8FAE85B-84A1-43AB-9858-B22D82333E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Data", "Core.Data\CrossOverApplication.Core.Data.csproj", "{2151FD88-9D1F-4BE9-AE73-8EE8EB2DC86D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Data", "CrossOverApplication.Core.Data\CrossOverApplication.Core.Data.csproj", "{2151FD88-9D1F-4BE9-AE73-8EE8EB2DC86D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{FC8B73B6-1CAD-49AE-BD92-9AD855D49214}"
 EndProject
@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Services", "CrossOverApplication.Services\CrossOverApplication.Services.csproj", "{BE6C41CA-760D-4C6A-A85D-C15D886F97E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Interfaces.Services", "CrossOverApplication.Core.Service\CrossOverApplication.Core.Interfaces.Services.csproj", "{B0A8BF3B-2981-4CAA-AEA4-86D558B0A21D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Interfaces.Services", "CrossOverApplication.Core.Interfaces.Service\CrossOverApplication.Core.Interfaces.Services.csproj", "{B0A8BF3B-2981-4CAA-AEA4-86D558B0A21D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Data", "CrossOverApplication.Data\CrossOverApplication.Data.csproj", "{2CAAA9DE-8479-46C5-B685-15B032DC3713}"
 EndProject
