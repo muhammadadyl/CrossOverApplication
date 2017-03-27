@@ -4,12 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using CrossOverApplication.Core.Domain.Entities;
-using CrossOverApplication.Data.Models.Identity;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Data;
 using System.Data.Common;
 using Microsoft.EntityFrameworkCore.Storage;
+using CrossOverApplication.Core.Domain.Entities.Identity;
 
 namespace CrossOverApplication.Data
 {

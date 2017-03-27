@@ -1,6 +1,5 @@
 ﻿using CrossOverApplication.Core.Data.Helpers;
 using CrossOverApplication.Core.Domain.Entities;
-using CrossOverApplication.Core.interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;

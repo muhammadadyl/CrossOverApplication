@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Data\CrossOverApplication.Core.Data.csproj" />
     <ProjectReference Include="..\CrossOverApplication.Core.Interfaces.Service\CrossOverApplication.Core.Interfaces.Services.csproj" />
-    <ProjectReference Include="..\CrossOverApplication.Core.Service\CrossOverApplication.Core.Interfaces.Services.csproj" />
   </ItemGroup>
 
 </Project>

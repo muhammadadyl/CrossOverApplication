@@ -9,23 +9,24 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using CrossOverApplication.Web.Models;
 using CrossOverApplication.Web.Models.ManageViewModels;
-using CrossOverApplication.Web.Services;
+using CrossOverApplication.Core.Domain.Entities.Identity;
+using CrossOverApplication.Core.Interfaces.Services;
 
 namespace CrossOverApplication.Web.Controllers
 {
     [Authorize]
     public class ManageController : Controller
     {
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<ApplicationIdentityUser> _userManager;
+        private readonly SignInManager<ApplicationIdentityUser> _signInManager;
         private readonly string _externalCookieScheme;
         private readonly IEmailSender _emailSender;
         private readonly ISmsSender _smsSender;
         private readonly ILogger _logger;
 
         public ManageController(
-          UserManager<ApplicationUser> userManager,
-          SignInManager<ApplicationUser> signInManager,
+          UserManager<ApplicationIdentityUser> userManager,
+          SignInManager<ApplicationIdentityUser> signInManager,
           IOptions<IdentityCookieOptions> identityCookieOptions,
           IEmailSender emailSender,
           ISmsSender smsSender,
@@ -363,7 +364,7 @@ namespace CrossOverApplication.Web.Controllers
             Error
         }
 
-        private Task<ApplicationUser> GetCurrentUserAsync()
+        private Task<ApplicationIdentityUser> GetCurrentUserAsync()
         {
             return _userManager.GetUserAsync(HttpContext.User);
         }

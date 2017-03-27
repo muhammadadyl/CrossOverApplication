@@ -1,11 +1,7 @@
 ﻿using CrossOverApplication.Core.Domain.Entities;
-using CrossOverApplication.Data.Models.Identity;
+using CrossOverApplication.Core.Domain.Entities.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace CrossOverApplication.Data
 {
