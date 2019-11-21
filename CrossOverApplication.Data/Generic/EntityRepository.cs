@@ -9,6 +9,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using CrossOverApplication.Core.Domain.Extensions;
+using CrossOverApplication.Core.Data;
 
 namespace CrossOverApplication.Data.Generic
 {

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CrossOverApplication.Data
+namespace CrossOverApplication.Core.Data
 {
     public interface IEntitiesContext : IDisposable
     {

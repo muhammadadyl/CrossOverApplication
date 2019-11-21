@@ -1,29 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Web", "CrossOverApplication.Web\CrossOverApplication.Web.csproj", "{752348C8-3EC3-4D7F-B169-9F8337AF5430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Web", "CrossOverApplication.Web\CrossOverApplication.Web.csproj", "{752348C8-3EC3-4D7F-B169-9F8337AF5430}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Domain.Entities", "CrossOverApplication.Core.Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj", "{AF851407-DFEC-459E-8E74-C17A520A30E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Core.Domain.Entities", "CrossOverApplication.Core.Domain.Entities\CrossOverApplication.Core.Domain.Entities.csproj", "{AF851407-DFEC-459E-8E74-C17A520A30E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Domain.Extensions", "CrossOverApplication.Core.Domain.Extensions\CrossOverApplication.Core.Domain.Extensions.csproj", "{C8FAE85B-84A1-43AB-9858-B22D82333E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Core.Domain.Extensions", "CrossOverApplication.Core.Domain.Extensions\CrossOverApplication.Core.Domain.Extensions.csproj", "{C8FAE85B-84A1-43AB-9858-B22D82333E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Data", "CrossOverApplication.Core.Data\CrossOverApplication.Core.Data.csproj", "{2151FD88-9D1F-4BE9-AE73-8EE8EB2DC86D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Core.Data", "CrossOverApplication.Core.Data\CrossOverApplication.Core.Data.csproj", "{2151FD88-9D1F-4BE9-AE73-8EE8EB2DC86D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{FC8B73B6-1CAD-49AE-BD92-9AD855D49214}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4428C530-3F39-40D0-B0CC-7F3D1F3E6C15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Services", "CrossOverApplication.Services\CrossOverApplication.Services.csproj", "{BE6C41CA-760D-4C6A-A85D-C15D886F97E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Services", "CrossOverApplication.Services\CrossOverApplication.Services.csproj", "{BE6C41CA-760D-4C6A-A85D-C15D886F97E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Interfaces.Services", "CrossOverApplication.Core.Interfaces.Service\CrossOverApplication.Core.Interfaces.Services.csproj", "{B0A8BF3B-2981-4CAA-AEA4-86D558B0A21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Core.Interfaces.Services", "CrossOverApplication.Core.Interfaces.Service\CrossOverApplication.Core.Interfaces.Services.csproj", "{B0A8BF3B-2981-4CAA-AEA4-86D558B0A21D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Data", "CrossOverApplication.Data\CrossOverApplication.Data.csproj", "{2CAAA9DE-8479-46C5-B685-15B032DC3713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverApplication.Core.Identity", "CrossOverApplication.Core.Identity\CrossOverApplication.Core.Identity.csproj", "{FFC167B3-E61E-48E6-BC1B-464E4C212129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossOverApplication.Core.Identity", "CrossOverApplication.Core.Identity\CrossOverApplication.Core.Identity.csproj", "{FFC167B3-E61E-48E6-BC1B-464E4C212129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{735BFED7-8A4B-44AC-BCE1-F3E23D764EFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,12 +71,15 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{752348C8-3EC3-4D7F-B169-9F8337AF5430} = {FC8B73B6-1CAD-49AE-BD92-9AD855D49214}
-		{AF851407-DFEC-459E-8E74-C17A520A30E8} = {26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}
-		{C8FAE85B-84A1-43AB-9858-B22D82333E5B} = {26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}
-		{2151FD88-9D1F-4BE9-AE73-8EE8EB2DC86D} = {26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}
+		{AF851407-DFEC-459E-8E74-C17A520A30E8} = {735BFED7-8A4B-44AC-BCE1-F3E23D764EFB}
+		{C8FAE85B-84A1-43AB-9858-B22D82333E5B} = {735BFED7-8A4B-44AC-BCE1-F3E23D764EFB}
+		{2151FD88-9D1F-4BE9-AE73-8EE8EB2DC86D} = {735BFED7-8A4B-44AC-BCE1-F3E23D764EFB}
 		{BE6C41CA-760D-4C6A-A85D-C15D886F97E3} = {26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}
 		{B0A8BF3B-2981-4CAA-AEA4-86D558B0A21D} = {26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}
 		{2CAAA9DE-8479-46C5-B685-15B032DC3713} = {4428C530-3F39-40D0-B0CC-7F3D1F3E6C15}
-		{FFC167B3-E61E-48E6-BC1B-464E4C212129} = {26B02BF5-2E35-4FF8-ADD7-CA9EDB34869F}
+		{FFC167B3-E61E-48E6-BC1B-464E4C212129} = {735BFED7-8A4B-44AC-BCE1-F3E23D764EFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2736C91-EBE3-4D10-9B35-8D77289FD22C}
 	EndGlobalSection
 EndGlobal

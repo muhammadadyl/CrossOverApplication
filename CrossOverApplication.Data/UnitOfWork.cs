@@ -1,4 +1,5 @@
-﻿using CrossOverApplication.Core.Data.Interfaces;
+﻿using CrossOverApplication.Core.Data;
+using CrossOverApplication.Core.Data.Interfaces;
 using CrossOverApplication.Core.Data.Interfaces.Generic.Repositories;
 using CrossOverApplication.Core.Domain.Entities;
 using CrossOverApplication.Data.Generic;

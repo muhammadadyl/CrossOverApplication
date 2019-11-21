@@ -10,10 +10,21 @@ using System.Data;
 using System.Data.Common;
 using Microsoft.EntityFrameworkCore.Storage;
 using CrossOverApplication.Core.Domain.Entities.Identity;
+using CrossOverApplication.Core.Data;
 
 namespace CrossOverApplication.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationIdentityUser, ApplicationIdentityRole, string, ApplicationIdentityUserClaim, ApplicationIdentityUserRole, ApplicationIdentityUserLogin, ApplicationIdentityRoleClaim, ApplicationIdentityUserToken>, IEntitiesContext
+    public class ApplicationDbContext :
+        IdentityDbContext<
+            ApplicationIdentityUser,
+            ApplicationIdentityRole,
+            string,
+            ApplicationIdentityUserClaim,
+            ApplicationIdentityUserRole,
+            ApplicationIdentityUserLogin,
+            ApplicationIdentityRoleClaim,
+            ApplicationIdentityUserToken
+        >, IEntitiesContext
     {
         private IDbContextTransaction _transaction;
 
